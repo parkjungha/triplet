@@ -1,4 +1,4 @@
-# **딥러닝 응용II:컴퓨터비전 최종 프로젝트**
+# **딥러닝 응용II:컴퓨터비전 최종 프로젝트 - 박정하**
 
 
 
@@ -8,6 +8,8 @@ Paper link: [https://arxiv.org/abs/2104.08760](https://arxiv.org/abs/2104.08760)
 
 Github link: https://github.com/parkjungha/triplet
 
+
+***
 
 
 
