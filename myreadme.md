@@ -1,12 +1,8 @@
-# Solving Inefficiency of Self-supervised Representation Learning 재현
-
-Created: December 13, 2022 2:35 PM
-
 # **딥러닝 응용II:컴퓨터비전 최종 프로젝트**
 
 
 
-## Solving Inefficiency of Self-supervised Representation Learning
+## Solving Inefficiency of Self-supervised Representation Learning 재현
 
 Paper link: [https://arxiv.org/abs/2104.08760](https://arxiv.org/abs/2104.08760)
 
