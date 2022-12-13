@@ -4,11 +4,16 @@ Created: December 13, 2022 2:35 PM
 
 # **딥러닝 응용II:컴퓨터비전 최종 프로젝트**
 
+
+
 ## Solving Inefficiency of Self-supervised Representation Learning
 
 Paper link: [https://arxiv.org/abs/2104.08760](https://arxiv.org/abs/2104.08760)
 
 Github link: https://github.com/parkjungha/triplet
+
+
+
 
 1. **Download the pretrained model.** 
 - Source (provided by authors):
@@ -20,7 +25,10 @@ Github link: https://github.com/parkjungha/triplet
 
 I use the longer epochs one because of the better performance.
 
-1. **Download the dataset.**
+
+
+
+2. **Download the dataset.**
 - Source: [https://cocodataset.org/](https://cocodataset.org/)
 
 I use [2017 Train images [118K/18GB]](http://images.cocodataset.org/zips/train2017.zip) and [2017 Train/Val annotations [241MB]](http://images.cocodataset.org/annotations/annotations_trainval2017.zip).
@@ -35,7 +43,10 @@ This repo is a modification on the OpenSelfSup.
 
 For object detection and instance segmentation tasks, this repo follows OpenSelfSup and uses Detectron2.
 
-1. **Train the model.** 
+
+
+
+3. **Train the model.** 
 
 ```bash
 python convert-pretrain-to-detectron2.py  ~/triplet/pretrained/release_ep940.pth  ~/triplet/pretrained/output_detection_ep940.pkl
@@ -43,7 +54,10 @@ python convert-pretrain-to-detectron2.py  ~/triplet/pretrained/release_ep940.pth
 bash [run.sh](http://run.sh/) configs/coco_R_50_C4_2x_moco.yaml ~/triplet/pretrained/output_detection_ep940.pkl
 ```
 
-1. **Evaluate the performance.** 
+
+
+
+4. **Evaluate the performance.** 
 
 This is the reported performances by authors.
 
