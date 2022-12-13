@@ -22,6 +22,8 @@ Github link: https://github.com/parkjungha/triplet
 I use the longer epochs one because of the better performance.      
 
 
+---
+
 
 
 2. **Download the dataset.**  
@@ -31,6 +33,8 @@ I use [2017 Train images [118K/18GB]](http://images.cocodataset.org/zips/train20
 
 and put them to `triplet/benchmarks/detection/datasets/coco` directory.      
 
+
+---
 
 
 
@@ -44,6 +48,8 @@ This repo is a modification on the OpenSelfSup.
 For object detection and instance segmentation tasks, this repo follows OpenSelfSup and uses Detectron2.      
 
 
+---
+
 
 
 4. **Train the model.**   
@@ -54,6 +60,8 @@ python convert-pretrain-to-detectron2.py  ~/triplet/pretrained/release_ep940.pth
 bash [run.sh](http://run.sh/) configs/coco_R_50_C4_2x_moco.yaml ~/triplet/pretrained/output_detection_ep940.pkl
 ```
 
+
+---
 
 
       
