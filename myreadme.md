@@ -16,8 +16,8 @@ Github link: https://github.com/parkjungha/triplet
 
 | Model | Top 1 Acc | Download |
 | --- | --- | --- |
-| shorter epochs | 73.8% | ⬇️ |
-| longer epochs | 75.9% | ⬇️ |
+| shorter epochs | 73.8% | [⬇️](https://drive.google.com/file/d/1ZKXgFIrnREuX94l8ARQF5ID9gTwleWjr/view?usp=sharing) |
+| longer epochs | 75.9% | [⬇️](https://drive.google.com/file/d/19nO2IrT856-0N9BUyZlOrmwafYx-aHNe/view?usp=sharing) |
 
 I use the longer epochs one because of the better performance.
 
