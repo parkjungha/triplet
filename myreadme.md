@@ -35,7 +35,11 @@ I use [2017 Train images [118K/18GB]](http://images.cocodataset.org/zips/train20
 
 and put them to `triplet/benchmarks/detection/datasets/coco` directory.
 
-1. **Install required libraries.** 
+
+
+
+
+3. **Install required libraries.** 
 - [OpenSelfSup](https://github.com/open-mmlab/OpenSelfSup)
 - [detectron2](https://github.com/facebookresearch/detectron2)
 
@@ -46,7 +50,7 @@ For object detection and instance segmentation tasks, this repo follows OpenSelf
 
 
 
-3. **Train the model.** 
+4. **Train the model.** 
 
 ```bash
 python convert-pretrain-to-detectron2.py  ~/triplet/pretrained/release_ep940.pth  ~/triplet/pretrained/output_detection_ep940.pkl
@@ -57,7 +61,7 @@ bash [run.sh](http://run.sh/) configs/coco_R_50_C4_2x_moco.yaml ~/triplet/pretra
 
 
 
-4. **Evaluate the performance.** 
+5. **Evaluate the performance.** 
 
 This is the reported performances by authors.
 
