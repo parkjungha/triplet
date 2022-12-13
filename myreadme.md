@@ -22,6 +22,9 @@ Github link: https://github.com/parkjungha/triplet
 I use the longer epochs one because of the better performance.
 
 and put them to `triplet/pretrained_model` directory.      
+
+
+
 ---
 
 
