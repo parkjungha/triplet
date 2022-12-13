@@ -19,9 +19,9 @@ Github link: https://github.com/parkjungha/triplet
 | shorter epochs | 73.8% | ⬇️ |
 | longer epochs | 75.9% | ⬇️ |
 
-I use the longer epochs one because of the better performance.      
+I use the longer epochs one because of the better performance.
 
-
+and put them to `triplet/pretrained_model` directory.      
 ---
 
 
