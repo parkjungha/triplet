@@ -38,7 +38,6 @@ and put them to `triplet/benchmarks/detection/datasets/coco` directory.
 
 
 
-
 3. **Install required libraries.**   
 - [OpenSelfSup](https://github.com/open-mmlab/OpenSelfSup)
 - [detectron2](https://github.com/facebookresearch/detectron2)
